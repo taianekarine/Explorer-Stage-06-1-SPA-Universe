@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --family-primary: 'Roboto', sans-serif;
+  --family-button: 'Roboto', sans-serif;
+
+  --fontc-header: #8D8D99;
+  --fontc-h1: #E1E1E6;
+  --fontc-p: #E1E1E6;
+  --fontc-header-hover: #FFFFFF;
+  --fontc-header-select: #FFFFFF;
+  --fontc-button-txt: #FFFFFF;
+  --fontc-button-txt-hover: #02799D;
+
+  --fsize-button: 1.4rem;
+  --fsize-p: 1.8rem;
+  --fsize-a: 2.4rem;
+  --fsize-h1: 4.8rem;
+
+  --color-bg-button: transparent;
+  --color-bg-button-hover: #FFFFFF;
+  --color-border-button: #FFFFFF;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+  background-image: url('/src/images/bg1.png');
+  background-position: top center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+} 
+
+header nav li a{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 3.2rem;
+  font-family: var(--family-primary);
+  font-size: var(--fsize-a);
+  margin: 7.2rem 4rem 7.2rem
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}  
+
+header nav a {
+  text-decoration: none;
+  color:var(--fontc-header);
+}
+
+header a:hover {
+  color:var(--fontc-header-hover);
+}
+
+nav li {
+  list-style: none;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17.2rem;
+}
+
+h1 {
+  font-family: var(--family-primary);
+  font-weight: 700;
+  font-size: var(--fsize-h1);
+  line-height: 125%;
+  color: var(--fontc-h1);
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-family: var(--family-primary);
+  color: var(--fontc-p);
+  font-size: var(--fsize-p);
+  text-align: start;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 1.6rem;
+  width: 64.8rem;
+  height: 20.3rem;
+}
+
+button {
+  background: var(--color-bg-button);
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: row;
+  padding: 1.2rem 3.2rem;
+  gap: .8rem;
+  border-color: var(--color-border-button);
+  color: var(--fontc-button-txt);
+  text-transform: uppercase;
+  font-family: var(--family-button);
+  font-size: var(--fsize-button);
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-left: 10rem;
+}
+
+button:hover {
+  background: var(--color-bg-button-hover);
+  color: var(--fontc-button-txt-hover);
+}
+
+.universe-wrapper {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 6.3rem 10.2rem;
+}
+
+.exploration-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 6.3rem 10.2rem;
+}
