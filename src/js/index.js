@@ -1,7 +1,7 @@
 import {Router} from './router.js'
 
 const router = new Router()
-  router.add('/', '../src/pages/home.html')
+  router.add('/index.html', '../src/pages/home.html')
   router.add('/home', '../src/pages/home.html')
   router.add('/universe', '../src/pages/universe.html')
   router.add('/exploration', '../src/pages/exploration.html')

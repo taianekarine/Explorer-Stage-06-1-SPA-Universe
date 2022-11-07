@@ -21,6 +21,7 @@ handle = () => {
   const { pathname } = window.location
   const route = this.routes[pathname] || this.routes[404]
 
+  pathname == "/index/html" ? document.body.style.backgroundImage = "url('/src/images/bg1.png')" : "url(/404.html)"
   pathname == "/home" ? document.body.style.backgroundImage = "url('/src/images/bg1.png')" : "url(/404.html)"
   pathname == "/universe" ? document.body.style.backgroundImage = "url('/src/images/bg2.png')" : "url(/404.html)"
   pathname == "/exploration" ? document.body.style.backgroundImage = "url('/src/images/bg3.png')" : "url(/404.html)"
