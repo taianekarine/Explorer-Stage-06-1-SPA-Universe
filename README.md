@@ -46,6 +46,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![spa](https://user-images.githubusercontent.com/94652702/200237288-40e7db6f-fd41-4b79-bee2-4040b209088d.png)
 
+## Você pode acessar o projeto online através do link abaixo:
+https://explorer-stage-06-1-spa-universe.vercel.app/home
+
 ---
 
 Feito com ♥ by Taiane Karine e Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
